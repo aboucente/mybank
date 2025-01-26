@@ -49,6 +49,10 @@
           shape="round"
           flat
         />
+        <!-- <q-fab flat color="purple" icon="mdi-dots-vertical" direction="up">
+          <q-fab-action color="primary" @click="onClick" icon="mail" />
+          <q-fab-action color="secondary" @click="onClick" icon="alarm" />
+        </q-fab> -->
       </div>
     </q-footer>
   </q-layout>
@@ -81,7 +85,12 @@ const menus = ref([
   {
     name: "tag",
     route: "/home",
-    icon: "mdi-chart-line",
+    icon: "mdi-swap-horizontal-bold",
+  },
+  {
+    name: "goal",
+    route: "/home",
+    icon: "mdi-target",
   },
   {
     name: "settings",

@@ -1,5 +1,12 @@
 {
   "appId": "io.aboucente.bankapp",
   "appName": "Quasar App",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {},
+    "SQLite": {
+      "dbName": "mybankapp.db",
+      "dbVersion": 1
+    }
+  }
 }
